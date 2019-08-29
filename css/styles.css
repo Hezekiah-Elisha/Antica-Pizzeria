@@ -6,3 +6,11 @@ body{
   position: relative;
   background-attachment: fixed;
 }
+.navbar{
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+}
+.about-us{
+  min-height: 70vh;
+  align-items: center;
+}

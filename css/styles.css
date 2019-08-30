@@ -63,3 +63,27 @@ h2{
 p{
   color: black;
 }
+.btn{
+  color: blanchedalmond;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important; }
+  img {
+    vertical-align: middle;
+    border-style: none; }
+
+.ftco-about .one-half {
+  width: 300%;
+  padding: 30px 15px; 
+  background-color: red;}
+  @media (min-width: 768px) {
+    .ftco-about .one-half {
+      padding: 5%;
+      width: 50%; } }
+  .ftco-about .one-half.img {
+    display: block; 
+    background-repeat: no-repeat;}
+    @media (max-width: 767.98px) {
+      .ftco-about .one-half.img {
+        height: 600px; } }

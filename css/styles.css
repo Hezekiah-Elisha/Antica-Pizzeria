@@ -5,23 +5,11 @@ body{
   background-position: center;
   position: relative;
   background-attachment: fixed;
+  color: blanchedalmond;
 }
 .navbar{
   background-color: rgba(255,255,255,0.1);
   color: white;
-}
-.about-us{
-  min-height: 70vh;
-  align-items: center;
-}
-
-h1{
-  color: blanchedalmond;
-  font-weight: bolder;
-  font-size: 50px;
-}
-h5{
-  color: blanchedalmond;
 }
 a{
   display: inline-block;
@@ -46,24 +34,27 @@ a {
   margin-bottom: 0;
   list-style: none; 
 }
-#overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.1);
-  z-index: 2;
-  cursor: pointer;
+.h{
+  text-align: center;
 }
-#about-us{
+h1{
   color: blanchedalmond;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h4{
+  color: blanchedalmond
+}
+h5{
+  color: blanchedalmond;
+}
+h3{
+  color: blanchedalmond
 }
 h2{
   color: blanchedalmond;
 }
 p{
-  color: black;
-}
-.btn{
   color: blanchedalmond;
 }
 .mb-4,

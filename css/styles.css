@@ -85,9 +85,8 @@ p{
 .services-wrap {
    margin-bottom: 30px; } }
 .services-wrap .img, .services-wrap .text {
-      width: 100%; }
+      width: 50%; }
  .services-wrap .img {
-   height: 120%;
     display: block; }
 .services-wrap .text {
     background: rgba(0, 0, 0, 0.2);

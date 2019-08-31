@@ -78,3 +78,21 @@ p{
     @media (max-width: 767.98px) {
 .ftco-about .one-half.img {
         height: 600px; } }
+.services-wrap {
+         width: 100%;
+    display: block; }
+    @media (max-width: 991.98px) {
+.services-wrap {
+   margin-bottom: 30px; } }
+.services-wrap .img, .services-wrap .text {
+      width: 100%; }
+ .services-wrap .img {
+   height: 120%;
+    display: block; }
+.services-wrap .text {
+    background: rgba(0, 0, 0, 0.2);
+     position: relative; }
+.services-wrap .text h3 {
+   font-size: 20px; }
+
+

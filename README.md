@@ -1,7 +1,7 @@
 # Le Vera Pizza
 ## Author
 
-[ Machel-Nyanumba ]
+**Machel-Nyanumba**
 
 ### Version
 02-9-2019

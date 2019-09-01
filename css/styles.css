@@ -91,6 +91,7 @@ p{
 }
 .mb-4,
 .my-4 {
+  color: gold;
   margin-bottom: 1.5rem !important; }
   img {
     vertical-align: middle;
@@ -169,11 +170,11 @@ p{
     color: white;
     font-size: 30px;
   }
+  #contact{
+    background-color: red;
+  }
   #contact h2{
     text-align: center;
-  }
-  #contact{
-    color: black;
   }
   #contactdetails h2{
     text-align: left;
@@ -201,6 +202,11 @@ p{
     padding-right: 8%;
     padding-left: 5%;
     color: #ffa500;
+  }
+  .controls-top h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
   }
   
   

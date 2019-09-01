@@ -1,7 +1,7 @@
 # Le Vera Pizza
 ## Author
 
-[Machel-Nyanumba]
+[ Machel-Nyanumba ]
 
 ### Version
 02-9-2019
@@ -50,7 +50,7 @@ This is a web application for Le Vera Pizza which is a pizza selling venture, th
 
 ## Contact Information 
 
-Please contact us on this email  [Lepizza14@gmail.com]
+Please contact us on this email  [ Lepizza14@gmail.com ]
 
 ## License
 *MIT License*

@@ -5,7 +5,8 @@ body{
   background-position: center;
   position: relative;
   background-attachment: fixed;
-  color: blanchedalmond;
+  color: whitesmoke;
+  font-family: 'Josefin Slab', serif;
 }
 .navbar{
   background-color: red;
@@ -41,21 +42,29 @@ h1{
   color: blanchedalmond;
   font-weight: bolder;
   font-size: 50px;
+  font-family: 'Righteous', cursive;
 }
 h4{
-  color: blanchedalmond
+  color: whitesmoke;
+  font-family: 'Josefin Slab', serif;
 }
 h5{
-  color: blanchedalmond;
+  color: whitesmoke;
+  font-family: 'Righteous', cursive;
 }
 h3{
-  color: blanchedalmond
+  color: whitesmoke;
+  font-family: 'Josefin Slab', serif;
 }
 h2{
-  color: blanchedalmond;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
 }
 p{
-  color: blanchedalmond;
+  color: whitesmoke;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
 }
 .arrow
 {

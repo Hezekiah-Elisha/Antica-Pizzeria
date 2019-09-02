@@ -1,3 +1,4 @@
+//frontend logic
 var price , crust_price, topping_price ;
 let total = 0;
 function Getpizza( name,size,crust,topping, total ){
@@ -7,6 +8,7 @@ function Getpizza( name,size,crust,topping, total ){
   this.topping = topping;
   this.total = total;
 }
+
 // proceed button
 $(document).ready(function(){
   // $("button.proceed").click(function(){
@@ -84,6 +86,7 @@ switch(pcrust){
  $("#pizzacrust").html($("#crust option:selected").val());
  $("#pizzatopping").html(ptopping.join(", "));
  $("#totals").html(total);
+ 
  // Add pizza button
  $("button.addPizza").click(function(){
   let pname = $(".name option:selected").val();
@@ -129,7 +132,7 @@ switch(pcrust){
         console.log("No price"); 
     }
     let topping_value = ptopping.length*50;
-    console.log("toppins value" + topping_value);
+    console.log("toppings value" + topping_value);
     total = price + crust_price + topping_value;
     console.log(total);
 
@@ -162,27 +165,27 @@ $("button.deliver").click(function(){
   $("#addedprice").hide();
   $("button.deliver").hide();
   $("#pizzatotal").hide();
-  let deliceryamount= checkoutTotal+150;
-  console.log("You will pay sh. "+deliceryamount+" on delivery");
-  $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
+  let deliveryamount= checkoutTotal+150;
+  console.log("You will pay sh. "+deliveryamount+" on delivery");
+  $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
 });
 
-// when one clicks place order button
+//place order button
 $("button#final-order").click(function(event){
   event.preventDefault();
 
   $("#pizzatotal").hide();
   $(".delivery").hide();
   $("button#final-order").hide();
-  let deliceryamount= checkoutTotal+150;
-  console.log("Final Bill is: "+deliceryamount);
+  let deliveryamount= checkoutTotal+150;
+  console.log("Final Bill is: "+deliveryamount);
   let person = $("input#name").val();
   let phone = $("input#phone").val();
   let location = $("input#location").val();
 
   if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
 
-    $("#finalmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+    $("#finalmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
     $("#totalbill").hide();
     $("#finalmessage").slideDown(1200);
   }

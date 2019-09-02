@@ -1,5 +1,5 @@
 body{
-  background-image: url('/images/pexels1.jpeg');
+  background-image: url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

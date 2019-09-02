@@ -4,7 +4,7 @@
 **Machel-Nyanumba**
 
 ### Version
-02-9-2019
+02-09-2019
 
 ## Description
 
@@ -12,7 +12,7 @@ This is a web application for Le Vera Pizza which is a pizza selling venture, th
 
 
 ## Live Page 
-
+https://machel54.github.io/Antica-Pizzeria/
 
 
 ## Installation / Setup instruction
